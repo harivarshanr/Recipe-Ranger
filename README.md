@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Recipe Ranger
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Recipe Ranger is a React-based web application that allows users to search for recipes and view detailed information about each recipe. The app fetches recipe data from the Edamam Recipe API and displays a list of recipes based on the user's search query.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Recipe Search:**
+  - Users can search for recipes using keywords.
+  - The search results update dynamically as the user types.
 
-### `npm start`
+- **Recipe Details:**
+  - Users can view a list of recipes with images and names.
+  - Clicking on "Ingredients" shows a dialog with detailed ingredient information.
+  - Clicking on "See Complete Recipe" opens the full recipe in a new tab.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Responsive Design:**
+  - The application is designed to be responsive and user-friendly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React:** For building the user interface and managing state.
+- **Axios:** For making HTTP requests to the Edamam Recipe API.
+- **Styled Components:** For styling the components.
+- **Material-UI:** For dialog components.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## File Structure
 
-### `npm run build`
+- `AppComponent.js`: Main component handling the search functionality and displaying recipes.
+- `RecipeComponent.js`: Component for displaying individual recipe details.
+- `App.css`: Contains the styles for the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these steps to get the application up and running on your local machine:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/recipe-ranger.git
 
-### `npm run eject`
+2. **Navigate to the Project Directory and Install Dependencies:**
+   ```bash
+   cd recipe-ranger
+   npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Start the Development Server:**
+   ```bash
+   npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ The application will be available at http://localhost:3000 in your web browser.
+   
+## How to Use
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Search for Recipes:** Enter a keyword into the search box and press enter or wait for the search results to update dynamically.
+- **View Recipe Details:** Click on "Ingredients" to see detailed information about the recipe's ingredients, Click on "See Complete Recipe" to view the full recipe in a new tab.
+- **Reset Search:** Click on the "Recipe Ranger" header to reset the search and clear the recipe list.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img width="1439" alt="Screenshot 2024-08-22 at 4 01 49 PM" src="https://github.com/user-attachments/assets/0868e84a-77f0-4173-8877-d4bbbe0bb1ae">
+<img width="1439" alt="Screenshot 2024-08-22 at 4 02 22 PM" src="https://github.com/user-attachments/assets/bdfac7ad-33c9-42c9-9b8f-f4f4e8ef35fa">
+<img width="1439" alt="Screenshot 2024-08-22 at 4 02 34 PM" src="https://github.com/user-attachments/assets/2baf5c6e-ca8d-46f2-999d-47548b1000a7">
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
