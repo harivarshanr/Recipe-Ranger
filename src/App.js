@@ -11,7 +11,7 @@ const APP_KEY = "044e0c349f9f9eb2ef016b709a486ee9";
 
 const RecipeContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   padding: 30px;
   width: 250px;
   box-shadow: 0 3px 6px 0 black;
@@ -44,9 +44,8 @@ const SeeNewTab = styled(SeeMoreText)`
   border: solid 1px green;
 `;
 const RecipeComponent = (props) => {
-  const [show, setShow] = useState("");
-
-  const { label, image, ingredients, url } = props.recipe;
+  const [show,setShow] = useState("");
+  const {label, image, ingredients, url } = props.recipe;
   return (
     <RecipeContainer>
       <Dialog
@@ -65,7 +64,7 @@ const RecipeComponent = (props) => {
               </tr>
             </thead>
             <tbody>
-              {ingredients.map((ingredient, index) => (
+              {ingredients.map((ingredient,index) => (
                 <tr key={index}>
                   <td>{ingredient.text}</td>
                   <td>{ingredient.weight}</td>
