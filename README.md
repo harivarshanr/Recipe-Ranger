@@ -1,52 +1,46 @@
-# Recipe-Ranger
+Recipe Ranger
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Recipe Ranger is a React-based web application that allows users to search for recipes and view detailed information about each recipe. The app fetches recipe data from the Edamam Recipe API and displays a list of recipes based on the user's search query.
+Features
 
-## Available Scripts
+* Recipe Search:
+    * Users can search for recipes using keywords.
+    * The search results update dynamically as the user types.
+* Recipe Details:
+    * Users can view a list of recipes with images and names.
+    * Clicking on "Ingredients" shows a dialog with detailed ingredient information.
+    * Clicking on "See Complete Recipe" opens the full recipe in a new tab.
+* Responsive Design:
+    * The application is designed to be responsive and user-friendly.
+Technologies Used
 
-In the project directory, you can run:
+* React: For building the user interface and managing state.
+* Axios: For making HTTP requests to the Edamam Recipe API.
+* Styled Components: For styling the components.
+* Material-UI: For dialog components.
+File Structure
 
-### `npm start`
+* AppComponent.js: Main component handling the search functionality and displaying recipes.
+* RecipeComponent.js: Component for displaying individual recipe details.
+* App.css: Contains the styles for the application.
+Getting Started
 
-Runs the app in the development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Follow these steps to get the application up and running on your local machine:
+1. Clone the Repository: git clone https://github.com/your-username/recipe-ranger.git
+2.   
+3. Navigate to the Project Directory and Install Dependencies: cd recipe-ranger
+4. npm install
+5.   
+6. Start the Development Server: npm start
+7.   
+The application will be available at http://localhost:3000 in your web browser.
+How to Use
 
-The page will reload when you make changes.  
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.  
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.  
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you're not satisfied with the build tool and configuration, you can `eject` at any time. This command copies all configuration files and dependencies (webpack, Babel, etc.) into your project so you have full control.
-
-## Learn More
-
-- [React Docs](https://reactjs.org/)
-- [Create React App Docs](https://facebook.github.io/create-react-app/docs/getting-started)
-
-Other topics like:
-- [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-- [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
-- [Troubleshooting](https://facebook.github.io/create-react-app/docs/troubleshooting)
-
----
-
-### 🚀 What to do next:
-
-1. Replace the content of your `README.md` with the above.
-2. Run:
-
-```bash
-git add README.md
-git rebase --continue
+* Search for Recipes: Enter a keyword into the search box and press enter or wait for the search results to update dynamically.
+* View Recipe Details: Click on "Ingredients" to see detailed information about the recipe's ingredients, Click on "See Complete Recipe" to view the full recipe in a new tab.
+* Reset Search: Click on the "Recipe Ranger" header to reset the search and clear the recipe list.
+￼
+ 
+￼
+ 
+￼
